@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3375D45-1B68-AF2C-A930-27EE1FFB938D" name="r3">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<ownerDesignName>SO_org</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SO_organization_organization_id" id="A599A49A-4960-A81D-22A5-189C37D2B761">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<ownerDesignName>SO_org</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<delegate>1E274104-AC90-F7F1-6FFB-F25FD57A97A6</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E15477AB-C818-B63D-D3C0-C292D2DAB58F" referredColumn="1E274104-AC90-F7F1-6FFB-F25FD57A97A6"/>
+</associations>
+</Column>
+<Column name="SO_Person_person_id" id="169AA648-611B-44DF-E8EE-400F116AB43F">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<ownerDesignName>SO_org</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>50E8670C-57BF-1AB1-05A6-6EA0276B9F39</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D239A00-0EE0-B579-1977-6C0B0CD6E477" referredColumn="50E8670C-57BF-1AB1-05A6-6EA0276B9F39"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75A35078-066E-3DCC-71DC-4C6E5680BBDB" name="r3__IDX">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<ownerDesignName>SO_org</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A599A49A-4960-A81D-22A5-189C37D2B761"/>
+<colUsage columnID="169AA648-611B-44DF-E8EE-400F116AB43F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DBF1AC1-3979-2DA5-3828-011E12D1A48E" name="FK_ASS_6">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<generatorID>D6309096-B710-35B2-925E-F6FC5C562E9D</generatorID>
+<ownerDesignName>SO_org</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A599A49A-4960-A81D-22A5-189C37D2B761"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3FB04A8-7638-C982-C3F3-750C3373D488" name="FK_ASS_7">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<generatorID>D6309096-B710-35B2-925E-F6FC5C562E9D</generatorID>
+<ownerDesignName>SO_org</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="169AA648-611B-44DF-E8EE-400F116AB43F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

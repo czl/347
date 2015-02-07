@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5FEA3DF7-CA8A-7898-C524-2D8F295B4DF8" name="SO_Contribution">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:21:16 UTC</createdTime>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<engineerTo>
+<item key="E9869E9A-B16F-6931-5A3D-624B83015105" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="contribution_id" id="1A4A48E5-28E0-939D-E560-65E1A46FB402">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:21:30 UTC</createdTime>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<engineerTo>
+<item key="E9869E9A-B16F-6931-5A3D-624B83015105" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="org_id" id="7357CE31-01A5-BDF6-05B2-057A2284F507">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:21:54 UTC</createdTime>
+<generatorID>B489CC1C-6474-0AD7-F738-59C14478F749</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<engineerTo>
+<item key="E9869E9A-B16F-6931-5A3D-624B83015105" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>39AB6D9A-5767-5827-AE0E-0D5C7152CECC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="person_id" id="9CFF0EBA-7E64-BD63-699D-29A2C3414172">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:22:03 UTC</createdTime>
+<generatorID>3F5DD170-5591-A7E3-7C42-90D28394C1D3</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<engineerTo>
+<item key="E9869E9A-B16F-6931-5A3D-624B83015105" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FDB187B9-4AEA-85D1-6F0C-6942B590F5FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FBE6CD43-A4E1-6C43-6A4E-63B442C55F8B" name="SO_Contributor PK">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:21:44 UTC</createdTime>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<engineerTo>
+<item key="E9869E9A-B16F-6931-5A3D-624B83015105" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1A4A48E5-28E0-939D-E560-65E1A46FB402</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

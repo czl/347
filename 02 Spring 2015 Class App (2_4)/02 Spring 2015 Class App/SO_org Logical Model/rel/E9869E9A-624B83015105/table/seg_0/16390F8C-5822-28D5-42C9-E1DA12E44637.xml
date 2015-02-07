@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16390F8C-5822-28D5-42C9-E1DA12E44637" name="SO_Ownership">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>336B9ADB-DBA2-7877-28E8-6A8BC905EB58</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ownership_id" id="404B0C14-B2A4-AFF9-D763-C23C4D11F70C">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>95D13229-E818-BE30-0307-4B5C6FF51DE6</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SO_Org_org_id" id="D5CE39DB-BF4C-56DC-9B37-79F05EE40F4B">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>595E3E79-FC99-BAC0-F13A-839D5E43EF43</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>9B2D9B78-8A94-505F-9D38-5BD4FA11C4BA</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="203FF043-418F-5357-E5A3-37C2E5D28031" referredColumn="9B2D9B78-8A94-505F-9D38-5BD4FA11C4BA"/>
+</associations>
+</Column>
+<Column name="SO_Person_person_id" id="A965BB11-AD26-FA85-A530-C672EA8C1209">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>DAAA1570-81C9-8D67-88D2-CC1667FA5617</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>B5A836FB-329A-46B3-5ACB-F21B74D639EC</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADA8DECF-528C-7CD0-4546-CD78A3E0E7D5" referredColumn="B5A836FB-329A-46B3-5ACB-F21B74D639EC"/>
+</associations>
+</Column>
+<Column name="percentage" id="D4441079-31D3-56B8-8478-9BBE57EC5624">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>1E3B68D0-C36B-820E-B73B-641E957E9F8A</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD1A8927-0916-FECB-DE79-831CAA52FA6E" name="SO_Ownership_PK">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>61DB7B08-846E-99F2-8F7E-07AE2C87A549</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="404B0C14-B2A4-AFF9-D763-C23C4D11F70C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DAEFCA6-4886-A102-756C-B5E3DDA55436" name="SO_Ownership_SO_Org_FK">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>D874CBCD-0EF0-8788-73CE-BA1A196184E5</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5CE39DB-BF4C-56DC-9B37-79F05EE40F4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E4DE77D-D4E6-9D03-567A-7C2C6FD07CF6" name="SO_Ownership_SO_Person_FK">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>75DE351D-C7F6-ADA2-4055-C74C8A1393EC</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A965BB11-AD26-FA85-A530-C672EA8C1209"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="r1" directorySegmentName="seg_0" id="A9B5A3B2-67CD-A1D1-EF3E-BE83E7D9E5E0">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:25:59 UTC</createdTime>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<engineerTo>
+<item key="9E727E5F-2D1C-AE23-1E1F-0389DBE8BA59" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>91F47FC6-BB69-CCEE-597C-CB682E88218A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6BD0FDDA-0E08-FBF4-2A32-64D170E37F72</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="percentage" id="79A1E1EE-2A80-EE25-68F5-EEE4F0E2D6F6">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:50:19 UTC</createdTime>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<engineerTo>
+<item key="9E727E5F-2D1C-AE23-1E1F-0389DBE8BA59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</attribute>
+</attributes>
+</Relation>

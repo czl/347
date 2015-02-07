@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FBA6FCF3-530B-A427-D464-FC2C6119453C" name="SO_Owner">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<generatorID>1CFA1964-0DEF-AD1A-6AC1-56ABF834EA3C</generatorID>
+<ownerDesignName>SO_org</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="5F963163-9E6D-8D18-02DD-4E7A50E24C00">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<generatorID>FDB187B9-4AEA-85D1-6F0C-6942B590F5FD</generatorID>
+<ownerDesignName>SO_org</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>50E8670C-57BF-1AB1-05A6-6EA0276B9F39</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2877EDC-1CE6-5825-E6A0-D1A6C796F4D1" referredColumn="50E8670C-57BF-1AB1-05A6-6EA0276B9F39"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A73A83C7-D2B5-DD0A-1109-C4654049B280" name="SO_Owner_PK">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<generatorID>DB6CCB10-4B74-DB04-2821-07A6E7FA3583</generatorID>
+<ownerDesignName>SO_org</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F963163-9E6D-8D18-02DD-4E7A50E24C00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B751D06A-D66E-B515-49F1-104BCECB7FFA" name="FK_ASS_1">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<generatorID>A1F74EF3-13EF-3C89-263C-194153FCC847</generatorID>
+<ownerDesignName>SO_org</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F963163-9E6D-8D18-02DD-4E7A50E24C00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

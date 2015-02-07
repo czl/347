@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E20ACA8-FBF2-72B5-3428-BE575DB925B9" name="SO_person">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:12:32 UTC</createdTime>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<engineerTo>
+<item key="EC7D844E-9072-CEDB-1AD5-81FBED3D74D3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="person_id" id="BD11AACF-A482-0233-3C51-E58DB002C516">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:13:06 UTC</createdTime>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<engineerTo>
+<item key="EC7D844E-9072-CEDB-1AD5-81FBED3D74D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="D9557BCA-5494-E05D-9AE8-BFA564DA4B29">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:13:06 UTC</createdTime>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<engineerTo>
+<item key="EC7D844E-9072-CEDB-1AD5-81FBED3D74D3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="dob" id="B53C7035-787F-DA9A-C368-14EE4D0EE9A5">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:13:06 UTC</createdTime>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<engineerTo>
+<item key="EC7D844E-9072-CEDB-1AD5-81FBED3D74D3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0A1C53F5-541D-02B9-50BC-6D37A6FFA648" name="{entity} PK">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:13:23 UTC</createdTime>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<engineerTo>
+<item key="EC7D844E-9072-CEDB-1AD5-81FBED3D74D3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BD11AACF-A482-0233-3C51-E58DB002C516</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

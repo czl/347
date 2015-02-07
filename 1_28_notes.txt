@@ -1,0 +1,89 @@
+modeling stack overflow, users and contributors, who else? we dk, but we'll pretend...
+nvm, just normal organization with users and contributors
+
+SO_organization is basically a class
+[class_name]_id will always be the unique id for the class
+ex: organization class unique id is organization_id
+
+varchar default just 255 unless we have a reason to make it larger
+
+we added 'owner' what if we have multiple owners?
+- can't solve it by owner1, owner2, owner3... b/c there is no definite end
+- example of a REPEATING GROUP
+	- repeating groups <<< nvr a good idea
+- if you feel like will have a repeating group, make it another class of that name instead
+- so for owner, make a class of owner and have it relate to organization
+
+description with 2k size
+
+use "information engr notation" to "no longer rounded corners, much better"
+
+thinking of other classes.... person?
+
+question: why [class_name]_id instead of just "id" ? b/c of when using foreign keys
+by default it comes in as the name of the col, so this makes it easier by default when
+dealing with multiple tables
+
+nvm, change to dob instead of age
+
+making subset of person called "owner"
+
+use super_type to make person a super class of owner
+
+dont need owner_id b/c it inherits it from person
+what distinguishes an owner from a regular person?
+- percentage (ownership)
+
+rightclick > notation > uncheck 'box-in-box'
+
+no primary key for employee, b/c person is already supplying the unique id
+
+can an owner own many organizations?
+- how many choices of relationships?
+	- many to many
+	- one to many
+	- many to one
+	- (inherit)
+we dont want owner to inherit from org
+we want many to many relationship for owners and organization
+
+relationship technology does not support inheritence, so we will have to tranfer it later
+
+use r1 instead of relationship_1 b/c oracle will have issue with names more than 2 char...
+
+have to click 'target option' to get the symbols to be correct
+
+this is the work that a "data modeler" or "data architect" builds
+
+1 line means one
+
+3 lines mean many
+
+for 1 to many relationship, should click the 'one' first than the 'many'
+
+F indicates 'foreign key', and since we caled it organization_id, it is more clear
+
+click on blue << arrow then 'engineer' to get the relational view
+
+currently will have to join owner with person to get their dob, b/c owner didn't inherit dob
+
+many-many relationships get replaced by a table, as seen in r1 and r3
+why so? (board drawing)
+
+nvr make changes in the relational model
+
+just added the relationship attribute
+
+now we see the percentage shows up in the relationship model
+
+the classic ways to convert hierarchy to table
+single table -- take whole hierarchy and squish it into one table
+
+nope.... still not working... should have only one table in the relational view now
+should have just one table and then multiple views (learn about views next class)
+
+we will have to make the table squishing by hand...
+- save the conceptual model
+- make a copy of it
+- convert the copy by hand
+	- will do this next time

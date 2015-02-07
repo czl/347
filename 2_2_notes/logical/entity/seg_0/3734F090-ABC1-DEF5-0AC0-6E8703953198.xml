@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3734F090-ABC1-DEF5-0AC0-6E8703953198" name="SO_contribution">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-02 22:22:03 UTC</createdTime>
+<ownerDesignName>2_2_notes</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="contributor_id" id="E2F794E3-2969-6375-D059-AD4F40B48AB3">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-02 22:22:11 UTC</createdTime>
+<ownerDesignName>2_2_notes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="person_id" id="B28F6457-DBE3-2441-6C65-A2B4DB25E593">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-02 22:25:16 UTC</createdTime>
+<generatorID>57962013-3076-07C1-C468-3E5F7145B38C</generatorID>
+<ownerDesignName>2_2_notes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BD11AACF-A482-0233-3C51-E58DB002C516</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="organization_id" id="4DAEF78F-65DB-AD4D-0DBB-DE5025E06175">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-02 22:28:55 UTC</createdTime>
+<generatorID>55A835DE-9CFB-8E90-AE1E-C37C32C16EC1</generatorID>
+<ownerDesignName>2_2_notes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C83E7FB3-36CB-3A82-1E90-67502CE6D738</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99FDF685-4D89-F95E-1404-F2A28E93A4E5" name="{entity} PK">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-02 22:22:18 UTC</createdTime>
+<ownerDesignName>2_2_notes</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E2F794E3-2969-6375-D059-AD4F40B48AB3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

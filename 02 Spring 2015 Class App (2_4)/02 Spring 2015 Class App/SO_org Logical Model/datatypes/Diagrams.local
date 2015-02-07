@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.datatypes.DataTypesDesign>
+   <object objectType="main_view" objectID="2D1FCC2C-853A-38DF-F27F-E89DDA2D95B8" name="" visible="false"/>
+   <object objectType="sub_view" objectID="dwsync" name="" visible="false"/>
+</oracle.dbtools.crest.model.design.datatypes.DataTypesDesign>

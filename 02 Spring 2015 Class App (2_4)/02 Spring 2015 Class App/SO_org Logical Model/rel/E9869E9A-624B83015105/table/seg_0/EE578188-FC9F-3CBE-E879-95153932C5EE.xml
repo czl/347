@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE578188-FC9F-3CBE-E879-95153932C5EE" name="SO_Contribution">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>5FEA3DF7-CA8A-7898-C524-2D8F295B4DF8</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="contribution_id" id="21D47665-D4F3-C860-5D11-50F8C09E03A2">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>1A4A48E5-28E0-939D-E560-65E1A46FB402</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SO_Org_org_id" id="45B3DF54-065E-1989-83A9-AD61458481E1">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>7357CE31-01A5-BDF6-05B2-057A2284F507</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>9B2D9B78-8A94-505F-9D38-5BD4FA11C4BA</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88A8AE8F-0CA6-BC89-A7E4-D4698F9D788B" referredColumn="9B2D9B78-8A94-505F-9D38-5BD4FA11C4BA"/>
+</associations>
+</Column>
+<Column name="SO_Person_person_id" id="832A4430-85F3-FBFA-3B86-8B2DBB6AA0D5">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>9CFF0EBA-7E64-BD63-699D-29A2C3414172</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>B5A836FB-329A-46B3-5ACB-F21B74D639EC</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="174A2A69-917B-61BF-3068-50F9A043F0DB" referredColumn="B5A836FB-329A-46B3-5ACB-F21B74D639EC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACD1B977-6310-5978-5F00-29D5E85EDC09" name="SO_Contribution_PK">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>FBE6CD43-A4E1-6C43-6A4E-63B442C55F8B</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21D47665-D4F3-C860-5D11-50F8C09E03A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A332D218-02D0-2BB9-7ED7-6327377992B7" name="SO_Contribution_SO_Org_FK">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>B489CC1C-6474-0AD7-F738-59C14478F749</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45B3DF54-065E-1989-83A9-AD61458481E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E5C2B76-BC09-5C57-3435-6D3F4B4E08E4" name="SO_Contribution_SO_Person_FK">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>3F5DD170-5591-A7E3-7C42-90D28394C1D3</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="832A4430-85F3-FBFA-3B86-8B2DBB6AA0D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

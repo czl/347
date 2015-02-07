@@ -1,0 +1,73 @@
+drop view org_person ;
+drop view org_owner ;
+drop view org_employee ;
+
+create view org_person as
+SELECT PERSON_ID, TYPE, NAME, DOB, SO_ORG_ORG_ID 
+FROM SO_PERSON
+WHERE TYPE = 'Person' ;
+
+create or replace TRIGGER person_trigger
+     INSTEAD OF insert ON org_person
+     FOR EACH ROW
+BEGIN
+     insert into so_person(
+        PERSON_ID,
+        TYPE,
+        NAME,
+        DOB,
+        SO_ORG_ORG_ID)
+     VALUES (
+        :new.PERSON_ID,
+        'Person',
+        :new.NAME,
+        :new.DOB,
+        :new.SO_ORG_ORG_ID) ;
+END;
+/
+
+create view org_owner as
+SELECT PERSON_ID, TYPE, NAME, DOB 
+FROM SO_PERSON
+WHERE TYPE = 'Owner' ;
+
+create or replace TRIGGER owner_trigger
+     INSTEAD OF insert ON org_owner
+     FOR EACH ROW
+BEGIN
+     insert into so_person(
+        PERSON_ID,
+        TYPE,
+        NAME,
+        DOB)
+     VALUES (
+        :new.PERSON_ID,
+        'Owner',
+        :new.NAME,
+        :new.DOB) ;
+END;
+/
+
+create view org_employee as
+SELECT PERSON_ID, TYPE, NAME, DOB, EMPID
+FROM SO_PERSON
+WHERE TYPE = 'Employee' ;
+
+create or replace TRIGGER employee_trigger
+     INSTEAD OF insert ON org_employee
+     FOR EACH ROW
+BEGIN
+     insert into so_person(
+        PERSON_ID,
+        TYPE,
+        NAME,
+        DOB,
+        EMPID)
+     VALUES (
+        :new.PERSON_ID,
+        'Employee',
+        :new.NAME,
+        :new.DOB,
+        :new.EMPID) ;
+END;
+/

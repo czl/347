@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="1CFA1964-0DEF-AD1A-6AC1-56ABF834EA3C" name="SO_Owner" seqName="seg_0"/>
+   <object objectType="Entity" objectID="30EC374E-EA9A-432E-7C9B-5910B8ADA7D6" name="SO_Person" seqName="seg_0"/>
+   <object objectType="Entity" objectID="838EA91C-9DCF-E6AB-F82B-E8ACAC469C6D" name="SO_organization" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DC8CB170-5652-523B-2F25-9659230AC8CA" name="SO_Employee" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4FBFDF5D-8ECB-F81B-5C46-5F501A3531C3" name="r2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="590DDB76-60A5-EA1B-7369-059953E7B1E0" name="r1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="AEBA19BF-DC58-379E-CAA4-3E0DAC610343" name="r4" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="5CF11566-4338-D0C2-4C54-B45034701645" name="Hierarchy_2" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="A1F74EF3-13EF-3C89-263C-194153FCC847" name="Hierarchy_1" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

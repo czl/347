@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E52A4AE1-B166-0D01-1204-A26FC1BF86E5" name="r1">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SO_organization_organization_id" id="A5EBA44F-B508-4A16-AD08-7F2A629954D9">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>22F1069E-63E9-1129-580B-24BA597C7A3D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64B8F365-DED5-A358-59EB-FD3070FEF4B8" referredColumn="22F1069E-63E9-1129-580B-24BA597C7A3D"/>
+</associations>
+</Column>
+<Column name="SO_owner_person_id" id="4D420D6B-EAFA-F206-79E8-427B00131E70">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>A66F9D78-7B53-A048-103D-F1DDEC6D9634</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E0CADEC-0F0C-7050-4E0E-0EDD7597A563" referredColumn="A66F9D78-7B53-A048-103D-F1DDEC6D9634"/>
+</associations>
+</Column>
+<Column name="percentage" id="98E1D789-D397-8119-629A-AE933610B4FE">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<generatorID>79A1E1EE-2A80-EE25-68F5-EEE4F0E2D6F6</generatorID>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C08EC107-9B62-FA14-5041-2D63E8794CDF" name="r1_PK">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5EBA44F-B508-4A16-AD08-7F2A629954D9"/>
+<colUsage columnID="4D420D6B-EAFA-F206-79E8-427B00131E70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="457CC232-9BE5-7798-109D-08E519874C37" name="FK_ASS_3">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<generatorID>A9B5A3B2-67CD-A1D1-EF3E-BE83E7D9E5E0</generatorID>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5EBA44F-B508-4A16-AD08-7F2A629954D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D61CE48B-A42A-5B25-3466-000C04F77009" name="FK_ASS_4">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<generatorID>A9B5A3B2-67CD-A1D1-EF3E-BE83E7D9E5E0</generatorID>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D420D6B-EAFA-F206-79E8-427B00131E70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

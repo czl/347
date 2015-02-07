@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="r1" directorySegmentName="seg_0" id="590DDB76-60A5-EA1B-7369-059953E7B1E0">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:25:26 UTC</createdTime>
+<ownerDesignName>SO_org Conceptual</ownerDesignName>
+<engineerTo>
+<item key="3936F0E7-57FE-BE09-875F-0BAC6FC1DB9B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1CFA1964-0DEF-AD1A-6AC1-56ABF834EA3C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>838EA91C-9DCF-E6AB-F82B-E8ACAC469C6D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="percentage" id="9E1421FB-C47F-336B-10BB-318C37702706">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:47:31 UTC</createdTime>
+<ownerDesignName>SO_org Conceptual</ownerDesignName>
+<engineerTo>
+<item key="3936F0E7-57FE-BE09-875F-0BAC6FC1DB9B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</attribute>
+</attributes>
+</Relation>

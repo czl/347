@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1313957-AE10-7ECD-B605-0B75102AC1EC" name="SO_employee">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:18:56 UTC</createdTime>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<engineerTo>
+<item key="482AC066-2BA8-2078-6F68-460D9A69C82C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>1E20ACA8-FBF2-72B5-3428-BE575DB925B9</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="empid" id="B45000B4-126A-2C82-3CA3-CD8C9FD01706">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:19:10 UTC</createdTime>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<engineerTo>
+<item key="482AC066-2BA8-2078-6F68-460D9A69C82C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="organization_id" id="F13854BF-3EDD-5086-1A89-F9EADB11C46F">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:33:48 UTC</createdTime>
+<generatorID>310F1C53-8FF7-411A-C167-7C24CAB2E88C</generatorID>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<engineerTo>
+<item key="482AC066-2BA8-2078-6F68-460D9A69C82C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C83E7FB3-36CB-3A82-1E90-67502CE6D738</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+</Entity>

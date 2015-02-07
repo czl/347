@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2453757D-A915-C988-987A-818D9EC5EFB1" name="r3">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SO_organization_organization_id" id="3C77F12E-BF76-C762-42C0-8662C17529C7">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>22F1069E-63E9-1129-580B-24BA597C7A3D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03D275D9-C31C-236A-9706-1C0C7CEF1A99" referredColumn="22F1069E-63E9-1129-580B-24BA597C7A3D"/>
+</associations>
+</Column>
+<Column name="SO_person_person_id" id="3FC41988-4E82-EA5C-D1A9-6E342F79A26C">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>CD9997C7-1A1F-92C0-DB77-09D978717FE2</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FA4DE59-3E05-A672-6EF7-8A6C51773337" referredColumn="CD9997C7-1A1F-92C0-DB77-09D978717FE2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6465F5E-132F-50B2-2990-B2032FF3CA58" name="r3_PK">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C77F12E-BF76-C762-42C0-8662C17529C7"/>
+<colUsage columnID="3FC41988-4E82-EA5C-D1A9-6E342F79A26C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26DCB0F9-C22D-F91A-9E15-6D2710119603" name="FK_ASS_6">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<generatorID>B806A88F-B0D2-ED68-6737-FECDA503BA85</generatorID>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C77F12E-BF76-C762-42C0-8662C17529C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B881AC7-FB0C-32EC-73A5-F95053B046D9" name="FK_ASS_7">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<generatorID>B806A88F-B0D2-ED68-6737-FECDA503BA85</generatorID>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FC41988-4E82-EA5C-D1A9-6E342F79A26C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="336B9ADB-DBA2-7877-28E8-6A8BC905EB58" name="SO_Ownership">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:18:38 UTC</createdTime>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<engineerTo>
+<item key="E9869E9A-B16F-6931-5A3D-624B83015105" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ownership_id" id="95D13229-E818-BE30-0307-4B5C6FF51DE6">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:19:07 UTC</createdTime>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<engineerTo>
+<item key="E9869E9A-B16F-6931-5A3D-624B83015105" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="org_id" id="595E3E79-FC99-BAC0-F13A-839D5E43EF43">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:19:31 UTC</createdTime>
+<generatorID>D874CBCD-0EF0-8788-73CE-BA1A196184E5</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<engineerTo>
+<item key="E9869E9A-B16F-6931-5A3D-624B83015105" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>39AB6D9A-5767-5827-AE0E-0D5C7152CECC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="person_id" id="DAAA1570-81C9-8D67-88D2-CC1667FA5617">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:19:41 UTC</createdTime>
+<generatorID>75DE351D-C7F6-ADA2-4055-C74C8A1393EC</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<engineerTo>
+<item key="E9869E9A-B16F-6931-5A3D-624B83015105" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FDB187B9-4AEA-85D1-6F0C-6942B590F5FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="percentage" id="1E3B68D0-C36B-820E-B73B-641E957E9F8A">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:25:03 UTC</createdTime>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<engineerTo>
+<item key="E9869E9A-B16F-6931-5A3D-624B83015105" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="61DB7B08-846E-99F2-8F7E-07AE2C87A549" name="SO-Owner PK">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:19:19 UTC</createdTime>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<engineerTo>
+<item key="E9869E9A-B16F-6931-5A3D-624B83015105" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95D13229-E818-BE30-0307-4B5C6FF51DE6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

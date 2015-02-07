@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1CFA1964-0DEF-AD1A-6AC1-56ABF834EA3C" name="SO_Owner">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:15:26 UTC</createdTime>
+<ownerDesignName>SO_org Conceptual</ownerDesignName>
+<engineerTo>
+<item key="3936F0E7-57FE-BE09-875F-0BAC6FC1DB9B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>30EC374E-EA9A-432E-7C9B-5910B8ADA7D6</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

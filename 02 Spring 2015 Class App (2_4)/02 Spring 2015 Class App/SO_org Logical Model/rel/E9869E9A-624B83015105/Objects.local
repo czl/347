@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="EE578188-FC9F-3CBE-E879-95153932C5EE" name="SO_Contribution" seqName="seg_0"/>
+   <object objectType="Table" objectID="60BAE615-E1C3-B335-BE93-D79BBB7F2081" name="SO_Org" seqName="seg_0"/>
+   <object objectType="Table" objectID="16390F8C-5822-28D5-42C9-E1DA12E44637" name="SO_Ownership" seqName="seg_0"/>
+   <object objectType="Table" objectID="211C4D7B-7D2C-A24E-C219-690739E7DC7D" name="SO_Person" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="88A8AE8F-0CA6-BC89-A7E4-D4698F9D788B" name="SO_Contribution_SO_Org_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="174A2A69-917B-61BF-3068-50F9A043F0DB" name="SO_Contribution_SO_Person_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="203FF043-418F-5357-E5A3-37C2E5D28031" name="SO_Ownership_SO_Org_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="ADA8DECF-528C-7CD0-4546-CD78A3E0E7D5" name="SO_Ownership_SO_Person_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2585F598-CB21-DE20-0A50-BC1085638A4C" name="SO_Person_SO_Org_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

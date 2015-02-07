@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C43A19F7-8D1B-283D-6474-F2CB0111A6ED" name="SO_person">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<generatorID>1E20ACA8-FBF2-72B5-3428-BE575DB925B9</generatorID>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="CD9997C7-1A1F-92C0-DB77-09D978717FE2">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<generatorID>BD11AACF-A482-0233-3C51-E58DB002C516</generatorID>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="48D1C78A-1C31-4B5D-8F9B-97B96DB3F81A">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<generatorID>D9557BCA-5494-E05D-9AE8-BFA564DA4B29</generatorID>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dob" id="A25CCD6A-B4D6-20B3-7FBC-0C3B62C0B0D7">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<generatorID>B53C7035-787F-DA9A-C368-14EE4D0EE9A5</generatorID>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="970101A0-983E-1A81-BFE4-D8E7D3CC6795" name="SO_person_PK">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<generatorID>0A1C53F5-541D-02B9-50BC-6D37A6FFA648</generatorID>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD9997C7-1A1F-92C0-DB77-09D978717FE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

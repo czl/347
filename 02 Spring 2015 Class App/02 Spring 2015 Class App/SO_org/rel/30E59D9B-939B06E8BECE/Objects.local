@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="308AED1C-945E-A115-F125-BCA8F771B823" name="SO_organization" seqName="seg_0"/>
+   <object objectType="Table" objectID="5A0422BA-EDA2-8AEF-0EE8-5CCC257D5600" name="SO_Employee" seqName="seg_0"/>
+   <object objectType="Table" objectID="6E357DCE-113F-9E9B-7F71-01046D0133F0" name="r1" seqName="seg_0"/>
+   <object objectType="Table" objectID="A3375D45-1B68-AF2C-A930-27EE1FFB938D" name="r3" seqName="seg_0"/>
+   <object objectType="Table" objectID="DA0B9E07-8868-6815-E2D3-05D49F7D3BAE" name="SO_Person" seqName="seg_0"/>
+   <object objectType="Table" objectID="FBA6FCF3-530B-A427-D464-FC2C6119453C" name="SO_Owner" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="279B2E0C-C8DF-04AC-C770-88792E806F09" name="FK_ASS_3" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2D239A00-0EE0-B579-1977-6C0B0CD6E477" name="FK_ASS_7" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="66F3B015-DB50-31FC-4D14-974F1A1F7B42" name="FK_ASS_4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="72FDF669-2C84-1363-8696-94E23E76B707" name="SO_Employee_SO_organization_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="86D11726-CF91-9385-C130-154F2821828E" name="FK_ASS_2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C2877EDC-1CE6-5825-E6A0-D1A6C796F4D1" name="FK_ASS_1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E15477AB-C818-B63D-D3C0-C292D2DAB58F" name="FK_ASS_6" seqName="seg_0"/>
+   <object objectType="FKArc" objectID="16913FC1-A41B-6FC3-076D-624431A94E89" name="FKArc_1" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

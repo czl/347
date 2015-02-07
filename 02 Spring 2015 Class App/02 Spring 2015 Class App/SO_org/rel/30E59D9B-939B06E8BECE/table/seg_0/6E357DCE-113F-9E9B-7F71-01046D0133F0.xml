@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E357DCE-113F-9E9B-7F71-01046D0133F0" name="r1">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<ownerDesignName>SO_org</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SO_Owner_person_id" id="43FD3AEF-AEED-CDA4-B1AE-61B9AAA05072">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<ownerDesignName>SO_org</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>5F963163-9E6D-8D18-02DD-4E7A50E24C00</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="279B2E0C-C8DF-04AC-C770-88792E806F09" referredColumn="5F963163-9E6D-8D18-02DD-4E7A50E24C00"/>
+</associations>
+</Column>
+<Column name="SO_organization_organization_id" id="BECAC091-3F06-1253-47F0-275D0C8222A9">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<ownerDesignName>SO_org</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<delegate>1E274104-AC90-F7F1-6FFB-F25FD57A97A6</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66F3B015-DB50-31FC-4D14-974F1A1F7B42" referredColumn="1E274104-AC90-F7F1-6FFB-F25FD57A97A6"/>
+</associations>
+</Column>
+<Column name="percentage" id="4ED96A24-F083-B441-3446-131A6D1014CC">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<generatorID>9E1421FB-C47F-336B-10BB-318C37702706</generatorID>
+<ownerDesignName>SO_org</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E6E4F14-1946-BDB9-AA41-31ED38F81BF8" name="r1__IDX">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<ownerDesignName>SO_org</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43FD3AEF-AEED-CDA4-B1AE-61B9AAA05072"/>
+<colUsage columnID="BECAC091-3F06-1253-47F0-275D0C8222A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BBA2C53-AAC6-79FF-6F67-9D96EB7A7070" name="FK_ASS_3">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<generatorID>590DDB76-60A5-EA1B-7369-059953E7B1E0</generatorID>
+<ownerDesignName>SO_org</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43FD3AEF-AEED-CDA4-B1AE-61B9AAA05072"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F59D6952-85F4-B2FF-197E-F7736BC5A0D1" name="FK_ASS_4">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<generatorID>590DDB76-60A5-EA1B-7369-059953E7B1E0</generatorID>
+<ownerDesignName>SO_org</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BECAC091-3F06-1253-47F0-275D0C8222A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

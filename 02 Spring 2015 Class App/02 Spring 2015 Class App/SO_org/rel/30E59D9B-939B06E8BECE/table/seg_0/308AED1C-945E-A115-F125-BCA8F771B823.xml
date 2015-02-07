@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="308AED1C-945E-A115-F125-BCA8F771B823" name="SO_organization">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<generatorID>838EA91C-9DCF-E6AB-F82B-E8ACAC469C6D</generatorID>
+<ownerDesignName>SO_org</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="organization_id" id="1E274104-AC90-F7F1-6FFB-F25FD57A97A6">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<generatorID>39AB6D9A-5767-5827-AE0E-0D5C7152CECC</generatorID>
+<ownerDesignName>SO_org</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="4B84FBEA-BFBA-B844-F618-862512D8BEB2">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<generatorID>828D220B-D9D7-9F9A-7D3B-D8858205C0B0</generatorID>
+<ownerDesignName>SO_org</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc" id="65D44BF6-1665-9702-E6A4-A6804FAF034A">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<generatorID>E1180984-8FD6-D6C8-8AC9-13313148F053</generatorID>
+<ownerDesignName>SO_org</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39709BED-48FD-6F6D-BE0E-9A427E39BE64" name="SO_organization_PK">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-01-28 22:55:12 UTC</createdTime>
+<generatorID>F1185BF3-26E1-6C72-9B2F-4883B789A984</generatorID>
+<ownerDesignName>SO_org</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E274104-AC90-F7F1-6FFB-F25FD57A97A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

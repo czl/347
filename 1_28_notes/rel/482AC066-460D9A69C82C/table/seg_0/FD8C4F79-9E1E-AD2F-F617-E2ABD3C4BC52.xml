@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD8C4F79-9E1E-AD2F-F617-E2ABD3C4BC52" name="SO_organization">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<generatorID>91F47FC6-BB69-CCEE-597C-CB682E88218A</generatorID>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="organization_id" id="22F1069E-63E9-1129-580B-24BA597C7A3D">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<generatorID>C83E7FB3-36CB-3A82-1E90-67502CE6D738</generatorID>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="E5207E6F-12F0-5172-C10E-512414FDC47C">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<generatorID>1CE57CBA-0C6F-5F1A-4759-C8F4BFE548D3</generatorID>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="80D5E2FC-27E4-C9B6-702F-CCC64381C848">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<generatorID>46CDEF61-5C09-6D28-AF29-5EBC9A4D8D8F</generatorID>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CE8E514-9D11-A99B-500B-7AE427D642F2" name="SO_organization_PK">
+<createdBy>CL</createdBy>
+<createdTime>2015-01-28 22:55:41 UTC</createdTime>
+<generatorID>4F655CFE-8659-5BFD-52A4-E6ADD3C6873A</generatorID>
+<ownerDesignName>1_28_notes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22F1069E-63E9-1129-580B-24BA597C7A3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

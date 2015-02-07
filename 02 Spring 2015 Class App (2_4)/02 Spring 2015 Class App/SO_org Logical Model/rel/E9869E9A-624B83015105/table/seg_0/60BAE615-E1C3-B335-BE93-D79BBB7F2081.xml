@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60BAE615-E1C3-B335-BE93-D79BBB7F2081" name="SO_Org">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>838EA91C-9DCF-E6AB-F82B-E8ACAC469C6D</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="org_id" id="9B2D9B78-8A94-505F-9D38-5BD4FA11C4BA">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>39AB6D9A-5767-5827-AE0E-0D5C7152CECC</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="2D4EB300-3E08-3A05-2E3F-A5647D1D9D6F">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>828D220B-D9D7-9F9A-7D3B-D8858205C0B0</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc" id="D25D1ECA-1E5C-CB4A-3571-0AE0285516C3">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>E1180984-8FD6-D6C8-8AC9-13313148F053</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20782130-F727-D853-AB6F-C867067CA6E2" name="SO_Org_PK">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-02-02 22:49:11 UTC</createdTime>
+<generatorID>F1185BF3-26E1-6C72-9B2F-4883B789A984</generatorID>
+<ownerDesignName>SO_org Logical Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B2D9B78-8A94-505F-9D38-5BD4FA11C4BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
